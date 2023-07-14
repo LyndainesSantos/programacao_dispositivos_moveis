@@ -1,0 +1,99 @@
+header{
+    background-color:rgb(32, 34, 31);
+    color: white;
+    position: -webkit-sticky; /* Necessário para funcionar no Safari */
+    position: sticky;
+    top: 0;
+}
+
+body{
+    background-color: white;
+    line-height: 2.2em;
+    font-size: large;
+    color: rgb(43, 42, 42);
+}
+
+blockquote,h2,h3,h4,ul{
+    margin-left: 240px;
+    margin-right: 240px;
+    text-align: justify;
+}
+
+nav{
+    background-color:rgb(32, 34, 31);
+    color: white;
+    padding: 2px;
+  }
+  
+  nav ul{
+    list-style-type: none;
+    margin-left: 180px;
+  }
+  
+  nav ul li{
+    display: inline;
+    padding: 15px;
+  }
+  
+  nav ul li a{
+    color: white;
+    text-decoration: none;
+    
+  }
+
+  #divBusca{
+    background-color: rgb(32, 34, 31);
+    border:solid 4px rgb(149, 222, 245);
+    border-radius:12px;
+    width:330px;
+    height:36px;
+    float: right;
+    margin-right: 240px;
+  }
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:191px;
+    color: white;
+  }
+  
+  #btnBusca{
+    border:none;
+    float:right;
+    height:32px;
+    border-radius:0 10px 10px 0;
+    width:90px;
+    font-weight:bold;
+    background-color: transparent;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+  }
+
+.img-container, .video-container {
+    text-align: center;
+    background-color: rgb(32, 34, 31);
+    margin-left: 240px;
+    margin-right: 240px;
+}
+
+.referencias ul li a{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color:black;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: rgb(88, 208, 255);
+    background-color: rgb(32, 34, 31);;
+    padding: 2px;
+    width: 100%;
+}

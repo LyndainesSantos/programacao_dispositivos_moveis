@@ -1,0 +1,45 @@
+header{
+    background-color: rgb(2, 52, 145);
+    padding: 30px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+body{
+    background-color: white;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    line-height: 2.2em;
+}
+
+h2,p,ul, #referencia{
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: justify;
+}
+
+.gif, .img-container, .video-container {
+    text-align: center;
+}
+
+.video-container{
+    background-image: url("https://static.todamateria.com.br/upload/fr/an/frana_a.jpg");
+    padding: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.rodape footer {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    background-color: rgb(2, 52, 145);
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

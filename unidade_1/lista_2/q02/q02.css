@@ -1,0 +1,65 @@
+header{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSddnrbIUMSEYMru5j1G1_qjkCj5MDMXJ7l1Q&usqp=CAU");
+    color: white;
+    padding: 30px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+body{
+    background-color: rgb(16, 38, 66);
+    color: white;
+    line-height: 2.2em;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+p,h2, footer{
+    margin-left: 140px;
+    margin-right: 140px;
+    text-align: justify;
+}
+
+.frase_ressaltar{
+    text-align: center;
+    margin-left: 450px;
+    margin-right: 450px;
+    background-color: rgb(35, 48, 121);
+    color: white;
+    padding: 20px;
+
+}
+
+.video, .imagem {
+    text-align: center;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav{
+    background-color: rgb(35, 48, 121);
+    color: white;
+    padding: 5px;
+    
+  }
+  
+  nav ul{
+    list-style-type: none;
+    margin-left: 80px;
+  }
+  
+  nav ul li{
+    display: inline;
+    padding: 15px;
+  }
+  
+  nav ul li a{
+    color: white;
+    text-decoration: none;
+    
+  }
+  

@@ -1,0 +1,103 @@
+header {
+    background-image: url("https://img.freepik.com/fotos-premium/fundo-de-frutas-frescas-de-todos-os-tipos-eu-adoro-frutas-e-boas-refeicoes_410516-14881.jpg");
+    background-size: 100%;
+    height: 100px;
+    border: solid 4px rgb(248, 133, 2);
+    border-radius: 20px;
+    padding: 40px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    text-align: center;
+
+}
+h1{
+    color: black;
+    padding-top: 60px;
+}
+
+body {
+    line-height: 2.2em;
+    color: black;
+}
+
+p,ul,ol,h2,h3,h4,.principal {
+    margin-left: 240px;
+    margin-right: 240px;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+h2 {
+    border: solid 2px rgb(248, 133, 2);
+    text-align: center;
+    padding: 20px;
+    font-size: larger;
+    border-radius: 20px;
+}
+
+#infos_gerais ul {
+    border: solid 1px rgb(248, 133, 2);
+    border-radius: 20px;
+    text-align: center;
+}
+
+#infos_gerais ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+}
+
+.principal {
+    background-color: white;
+    border: solid 1px rgb(248, 133, 2);
+    border-radius: 20px;
+}
+
+.img-container,
+.video-container {
+    text-align: center;
+}
+
+#divBusca {
+    border: solid 2px rgb(248, 133, 2);
+    border-radius: 12px;
+    width: 330px;
+    height: 36px;
+    float: right;
+    margin-right: 40px;
+}
+
+#txtBusca {
+    float: left;
+    background-color: transparent;
+    padding-left: 5px;
+    font-size: 18px;
+    border: none;
+    height: 32px;
+    width: 191px;
+}
+
+#btnBusca {
+    border: none;
+    float: right;
+    height: 32px;
+    border-radius: 0 5px 5px 0;
+    width: 90px;
+    font-weight: bold;
+    background-color: transparent;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+.referencias ul li a {
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: black
+}
+
+footer{
+    text-align: center;
+}

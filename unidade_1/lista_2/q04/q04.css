@@ -1,0 +1,110 @@
+header{
+    color: white;
+    height: 250px;
+}
+
+body{
+    background-color: white;
+    line-height: 2.2em;
+    font-size: large;
+    color: rgb(43, 42, 42);
+    margin-left: 240px;
+    margin-right: 240px;
+    text-align: justify;
+    border: solid;
+    border-color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p, h1, h2, h3, h4, ul, ol{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+nav{
+    background-color:rgb(248, 122, 5);
+    color: black;
+    font-size: medium;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 2px;
+    border: solid 1px black;
+  }
+  
+  nav ul{
+    list-style-type: none;
+    margin-left: 1px;
+  }
+  
+  nav ul li{
+    display: inline;
+    padding: 15px;
+  }
+  
+  nav ul li a{
+    color: black;
+    text-decoration: none;
+    
+  }
+
+  #referencias ol li a{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color:black;
+}
+
+#divBusca{
+    border:solid 2px black;
+    border-radius:12px;
+    width:330px;
+    height:36px;
+    float: right;
+    margin-right: 40px;
+  }
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:191px;
+  }
+  
+  #btnBusca{
+    border:none;
+    float:right;
+    height:32px;
+    border-radius:0 5px 5px 0;
+    width:90px;
+    font-weight:bold;
+    background-color: transparent;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+  }
+
+.img-container{
+    text-align: center;
+}
+
+#header, #article, #aside, #figure{
+    background-color: rgb(248, 168, 76);
+    padding: 20px;
+    border: solid 1px coral;
+}
+
+#section, #nav, #main, #footer{
+    background-color: rgb(255, 218, 176);
+    padding: 20px;
+    border: solid 1px coral;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: black;
+    padding: 2px;
+    width: 100%;
+}
